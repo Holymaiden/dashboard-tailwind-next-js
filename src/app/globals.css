@@ -198,7 +198,7 @@
   h4,
   h5,
   h6 {
-    @apply font-lexend font-bold text-gray-900 dark:text-gray-700;
+    @apply font-bold text-gray-900 dark:text-gray-700;
   }
 
   h1 {
@@ -388,7 +388,7 @@ input[type="checkbox"]:checked ~ svg {
 
 /* header */
 .react-datepicker .react-datepicker__header {
-  @apply border-b-gray-0 bg-gray-0 font-lexend dark:border-transparent dark:bg-gray-100;
+  @apply border-b-gray-0 bg-gray-0 dark:border-transparent dark:bg-gray-100;
 }
 
 /* current month name in header */
@@ -1138,7 +1138,7 @@ div[style="z-index: 1000001;"],
 }
 
 .rbc-toolbar-label {
-  @apply font-lexend text-xl font-medium text-gray-900 dark:text-white;
+  @apply text-xl font-medium text-gray-900 dark:text-white;
 }
 
 .rbc-agenda-view {
