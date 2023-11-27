@@ -1,6 +1,6 @@
 import Image from "next/image";
 import SignInForm from "@/modules/sign-in";
-import AuthWrapper from "@/common/layout/AuthWrapper";
+import AuthWrapper from "@/common/layout/auth/AuthWrapper";
 import UnderlineShape from "@/common/components/shape/UnderlineShape";
 import { metaObject } from "@/config/site.config";
 

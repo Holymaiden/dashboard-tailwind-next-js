@@ -1,7 +1,7 @@
 import Image from "next/image";
 import UnderlineShape from "@/common/components/shape/UnderlineShape";
 import SignUpForm from "@/modules/sign-up";
-import AuthWrapperOne from "@/common/layout/AuthWrapper";
+import AuthWrapperOne from "@/common/layout/auth/AuthWrapper";
 import { metaObject } from "@/config/site.config";
 
 export const metadata = {

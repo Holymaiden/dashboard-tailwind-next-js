@@ -1,12 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import logoImg from "../../../public/logo-primary.svg";
-import logoImgText from "../../../public/logo-primary-text.svg";
 import Image from "next/image";
 import { Title, Text } from "rizzui";
 import { Button } from "rizzui";
-import { PiAppleLogo, PiArrowLeftBold } from "react-icons/pi";
+import { PiAppleLogo } from "react-icons/pi";
 import { FcGoogle } from "react-icons/fc";
 import OrSeparation from "@/common/components/OrSeparation";
 import toast from "react-hot-toast";
@@ -51,11 +49,20 @@ export default function AuthWrapper({
                 href={"/"}
                 className="mb-6 inline-flex max-w-[168px] xl:mb-8"
               >
-                <Image src={logoImg} alt="Isomorphic" />
                 <Image
-                  src={logoImgText}
-                  alt="Isomorphic"
+                  src="logo-primary.svg"
+                  alt="Fihdash"
+                  priority
+                  width={61}
+                  height={38}
+                />
+                <Image
+                  src="/logo-primary-text.svg"
+                  alt="Fihdash"
                   className="ps-2.5 dark:invert"
+                  priority
+                  width={99}
+                  height={19}
                 />
               </Link>
               <Title

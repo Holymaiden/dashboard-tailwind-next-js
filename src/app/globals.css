@@ -701,18 +701,18 @@ td.rc-table-cell-fix-right {
 /*
 * All form inputs common css
 */
-.isomorphic-form label > span,
-.isomorphic-form .rizzui-phone-number > label {
+.fihdash-form label > span,
+.fihdash-form .rizzui-phone-number > label {
   @apply font-medium;
 }
 
-.isomorphic-form label > div {
+.fihdash-form label > div {
   @apply leading-none;
 }
 
-.isomorphic-form label > div,
-.isomorphic-form label input,
-.isomorphic-form label select {
+.fihdash-form label > div,
+.fihdash-form label input,
+.fihdash-form label select {
   @apply !text-sm;
 }
 
