@@ -1,28 +1,26 @@
 import Image from "next/image";
-import SignInForm from "@/modules/sign-in";
-import AuthWrapper from "@/common/layout/AuthWrapper";
 import UnderlineShape from "@/common/components/shape/UnderlineShape";
+import SignUpForm from "@/modules/sign-up";
+import AuthWrapperOne from "@/common/layout/AuthWrapper";
 import { metaObject } from "@/config/site.config";
 
 export const metadata = {
-  ...metaObject("Sign In"),
+  ...metaObject("Sign Up 1"),
 };
 
-export default function SignIn() {
+export default function SignUp() {
   return (
-    <AuthWrapper
+    <AuthWrapperOne
       title={
         <>
-          Welcome back! Please
+          Join us and never miss a thing -{" "}
           <span className="relative inline-block">
-            Sign in to
-            <UnderlineShape className="absolute -bottom-2 start-0 h-2.5 w-24 text-blue md:w-28 xl:-bottom-1.5 xl:w-36" />
+            SIGN UP!
+            <UnderlineShape className="absolute -bottom-2 start-0 h-2.5 w-28 text-blue xl:-bottom-1.5 xl:w-36" />
           </span>
-          continue.
         </>
       }
-      description="By signing up, you will gain access to exclusive content, special
-      offers, and be the first to hear about exciting news and updates."
+      description="By signing up, you will gain access to exclusive content, special offers, and be the first to hear about exciting news and updates."
       bannerTitle="The simplest way to manage your workspace."
       bannerDescription="Amet minim mollit non deserunt ullamco est sit aliqua dolor do
       amet sint velit officia consequat duis."
@@ -40,7 +38,7 @@ export default function SignIn() {
         </div>
       }
     >
-      <SignInForm />
-    </AuthWrapper>
+      <SignUpForm />
+    </AuthWrapperOne>
   );
 }
