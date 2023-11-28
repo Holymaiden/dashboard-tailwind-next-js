@@ -39,7 +39,7 @@ export default async function RootLayout({
       <body
         className={clsxm(inter.variable, lexendDeca.variable, "font-inter")}
       >
-        <AuthProvider session={session}>
+        <AuthProvider session={session} >
           <ThemeProvider>
             <NextProgress />
             {children}
